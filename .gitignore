@@ -6,7 +6,6 @@ env/
 venv/
 ENV/
 
-
 # Ignore data files
 data/
 
@@ -14,3 +13,21 @@ data/
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type/lint/tool caches
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit local config/cache
+.streamlit/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
