@@ -1,5 +1,16 @@
 # Ignore environment files 
 .env
+.envrc
+.venv
+env/
+venv/
+ENV/
+
 
 # Ignore data files
 data/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class

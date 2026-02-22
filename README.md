@@ -25,7 +25,7 @@ Local-first "note vault" MVP. The long-term goal is to drop in messy documents a
 
 ## Requirements
 
-- Python 3.11+ (3.12 works fine)
+- Python 3.12
 - `uv` for dependency management
 - Docker + Docker Compose
 - Git
